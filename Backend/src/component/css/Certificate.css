@@ -1,0 +1,68 @@
+.certificate-container {
+    width: 800px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .certificate-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2; /* Adjust opacity for the border image */
+  }
+  
+  .certificate-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .certificate-logo {
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 10px;
+  }
+  
+  .certificate-title {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .certificate-body {
+    margin: 20px 0;
+  }
+  
+  .donor-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .certificate-text {
+    font-size: 22px;
+    color: #555;
+  }
+  
+  .certificate-date,
+  .certificate-id {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .certificate-footer {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .footer-text {
+    font-style: italic;
+    color: #333;
+  }
+  

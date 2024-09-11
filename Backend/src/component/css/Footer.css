@@ -1,0 +1,44 @@
+footer {
+  /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .bg-light {
+    background-color: #f8f9fa;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .p-3 {
+    padding: 1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+  }
+  
+  .btn-primary {
+    color: #fff;
+  }
+  
+  .btn-floating {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+  
+  .m-1 {
+    margin: 0.25rem;
+  }
+  
